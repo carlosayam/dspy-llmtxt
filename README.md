@@ -1,7 +1,7 @@
 ## A simple DSPy processing
 
-This was modified from the original DSPy tutorial to handle folders and oriented
-towards using local models (e.g. ollama, unsloth, etc).
+This was modified from the original DSPy [tutorial](https://dspy.ai/tutorials/llms_txt_generation/)
+to handle folders and oriented towards using local models (e.g. ollama, unsloth, etc).
 
 ### Installation
 
@@ -21,7 +21,7 @@ export API_BASE=<url>
 export API_KEY=<api-key>
 ```
 
-and execute to scan a folder of yours like
+and execute to scan a folder in your machine like
 
 ```bash
 uv run python src/llmtxt/main.py <folder>
